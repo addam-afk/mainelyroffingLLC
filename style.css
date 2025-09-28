@@ -1,3 +1,56 @@
+@media (max-width: 767.98px) {
+    .bg-gradient-primary.rounded-3.p-5.text-white.shadow-lg .d-flex.gap-3 .btn {
+        padding-top: 0.85rem !important;
+        padding-bottom: 0.85rem !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+        margin-bottom: 0.5rem;
+    }
+}
+/* Fix contrast for 'Ready to Get Started?' section on mobile */
+@media (max-width: 767.98px) {
+    .bg-gradient-primary.rounded-3.p-5.text-white.shadow-lg {
+        background: #222 !important;
+        color: #fff !important;
+    }
+    .bg-gradient-primary.rounded-3.p-5.text-white.shadow-lg h3,
+    .bg-gradient-primary.rounded-3.p-5.text-white.shadow-lg p,
+    .bg-gradient-primary.rounded-3.p-5.text-white.shadow-lg .lead,
+    .bg-gradient-primary.rounded-3.p-5.text-white.shadow-lg .fw-bold {
+        color: #fff !important;
+    }
+    .bg-gradient-primary.rounded-3.p-5.text-white.shadow-lg .btn-light {
+        color: #222 !important;
+        background: #fff !important;
+        border-color: #fff !important;
+    }
+    .bg-gradient-primary.rounded-3.p-5.text-white.shadow-lg .btn-outline-light {
+        color: #fff !important;
+        border-color: #fff !important;
+    }
+}
+/* Hamburger menu icon black for mobile */
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        background-color: #fff !important;
+        border-color: #000 !important;
+        color: #000 !important;
+    }
+    .navbar-toggler .navbar-toggler-icon {
+        filter: invert(1) grayscale(1) brightness(0.1) !important;
+    }
+    .navbar-nav {
+        color: #111 !important;
+    }
+    .navbar-nav .nav-link,
+    .navbar-nav .fw-bold,
+    .navbar-nav .text-black {
+        color: #111 !important;
+    }
+    .main-header .fs-3.fw-bold {
+        color: #111 !important;
+    }
+}
 /* Metal Roofing Image Style */
 .metal-roofing-img {
     height: 200px;

@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeFormHandling();
     initializeScrollEffects();
     initializeAnimations();
-    
+
     // Add loading class to body
     document.body.classList.add('loading');
 });
